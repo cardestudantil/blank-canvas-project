@@ -2,5 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
   ssr: false,
-  component: () => <div className="min-h-screen bg-background" />,
+  component: () => (
+    <div className="min-h-screen bg-background">
+      Ative Supabase para este projeto.
+    </div>
+  ),
 });
